@@ -1,16 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./item.css">
     <title>Prekės informacija</title>
 </head>
+
 <body>
-    
+    <header>
+        <div class="logo">
+            <h1>Skelbimų portalas</h1>
+        </div>
+        <div class="item-id">
+            <p>Skelbimo ID: 023</p>
+        </div>
+
+    </header>
+    <main>
+        <div class="item-data">
+            <div class="item-image" id="item-image">Cia bus Noutrauka</div>
+            <div class="item-name" id="item-name">Butas 85 kv. m</div>
+            <div class="item-description" id="item-description">Labai gra=us butai zu vaizdu i jura tai pat labai grazu
+                remontas ir pakanmkamai bnebrangus isklaikymas na bandykite pirkti ir jums viskas bis ok su situo butu
+            </div>
+            <div class="item-price-location">
+                <div class="item-price" id="item-price">85000 EUR</div>
+                <div class="item-location" id="item-location">Klaipėda</div>
+            </div>
+            <div class="buttons">
+                <!-- <div class="button"> -->
+                <input class="delete" id="delete" value="Ištrinti skelbimą">
+                <!-- </div> -->
+                <!-- <div class="button"> -->
+                <input class="go-to-main" id="go-to-main" value="Visi skelbimai">
+                <!-- </div> -->
+            </div>
+        </div>
+    </main>
 
     <script src="./item.js"></script>
 </body>
+
 </html>

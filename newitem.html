@@ -1,16 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./newitem.css">
-    <title>Įkelti naują prekę</title>
+    <title>Įkelti naują skelbimą</title>
 </head>
+
 <body>
-    
+    <header>
+        <div class="logo">
+            <h1>Skelbimų portalas</h1>
+        </div>
+    </header>
+    <main>
+        <div class="main-title">
+            <h2>Užpildykite formą:</h2>
+        </div>
+        <section class="form-wrapper">
+            <div class="input-wrapper">
+                <label for="name-input">Pavadinimas</label>
+                <input class="name-input" id="name-input" type="text">
+            </div>
+            <div class="input-wrapper">
+                <label for="description-input">Aprašymas</label>
+                <textarea name="description-input" id="description-input" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input-wrapper">
+                <label for="image-input">Nuotrauka</label>
+                <input class="image-input" id="image-input" type="text">
+            </div>
+            <div class="price-location">
+                <div class="price-location-input">
+                    <label for="price-input">Kaina</label>
+                    <input class="price-input" type="text">
+                </div>
+                <div class="price-location-input">
+                    <label for="location-input">Miestas</label>
+                    <input class="location-input" id="location-input" type="text">
+                </div>
+            </div>
+            <div class="add-button" id="add-button">
+                <input class="add-button-input" id="add-button-input" value="Įdėti skelbimą">
+            </div>
+        </section>
+
+
+    </main>
 
     <script src="./newitem.js"></script>
 </body>
+
 </html>

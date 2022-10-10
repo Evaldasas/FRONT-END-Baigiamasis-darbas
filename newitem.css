@@ -1,0 +1,72 @@
+body {
+    font-family: 'Open Sans', 'Tahoma', 'Arial', sans-serif;
+}
+
+header {
+    width: 70%;
+    height: 120px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+main {
+    width: 70%;
+    height: 700px;
+    margin: auto;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #00d053;
+}
+
+.main-title{
+    color: #1da1f2;
+}
+.form-wrapper {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.price-location{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+.price-location-input{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.add-button{
+    margin-top: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.add-button-input{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: #1da1f2;
+    border-style: none;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}

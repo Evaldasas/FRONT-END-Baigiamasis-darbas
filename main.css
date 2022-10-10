@@ -1,0 +1,106 @@
+body {
+    font-family: 'Open Sans', 'Tahoma', 'Arial', sans-serif;
+}
+
+header {
+    width: 70%;
+    height: 120px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+main {
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #00d053;
+}
+
+a {
+    text-decoration: none;
+    background-color: #1da1f2;
+    font-weight: 700;
+    color: white;
+}
+
+.logo {
+    width: 80%;
+}
+
+.new-item-link {
+    width: 20%;
+    height: 50px;
+    min-width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1da1f2;
+    cursor: pointer;
+}
+
+.main-title {
+    color: #1da1f2;
+}
+
+.adds {
+    width: 100%;
+}
+
+.divider {
+    height: 2px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: rgb(202, 200, 200);
+}
+
+.add {
+    width: 100%;
+    height: 150px;
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+}
+
+.add-photo {
+    background-color: aqua;
+    height: 100%;
+    width: 200px;
+    min-width: 200px;
+}
+
+.add-info {
+    margin-left: 20px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.add-name {
+    margin-top: 3px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #1da1f2;
+    overflow: hidden;
+}
+
+.add-description {
+    height: 60px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+.add-price {
+    font-size: 25px;
+    color: #1da1f2;
+    font-weight: 600;
+}
