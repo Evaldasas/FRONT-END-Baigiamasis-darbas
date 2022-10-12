@@ -5,16 +5,12 @@ const getAllItems = async () => {
             return response.json();
         })
         .then((items) => {
-            console.log(items);
             const filteredItems = items.sort((a, b) => {
                 return a.price - b.price;
             })
-            console.log('Filtruoti duomenys', filteredItems);
-            console.log("viskas veikia gerai!");
             return filteredItems;
         })
         .then((items) => {
-            console.log('items', items);
             createDom(items);
         })
         .catch((error) => {
@@ -27,7 +23,6 @@ function createDom(items) {
     const itemsWrapper = document.getElementById("items");
 
     items.forEach(item => {
-        console.log(item.image);
         const itemWrapper = document.createElement("div");
         itemWrapper.classList.add("item-wrapper");
 
@@ -64,8 +59,6 @@ function createDom(items) {
         itemButtonWrapper.append(itemButton);
         itemWrapper.append(itemImage, itemInfo, itemButtonWrapper);
         itemsWrapper.append(itemWrapper, divider);
-
-        console.log("viskas veikia gerai!" + item.id);
     });
 
 }

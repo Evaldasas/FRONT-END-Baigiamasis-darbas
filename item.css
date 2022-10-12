@@ -12,8 +12,8 @@ header {
 }
 
 main {
+    margin: 0;
     width: 70%;
-    height: 1300px;
     margin: auto;
     background-color: beige;
     display: flex;
@@ -40,11 +40,13 @@ p {
     width: 30%;
     height: 50px;
     min-width: 150px;
+    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #1da1f2;
-    cursor: pointer;
+    color: white;
+    font-weight: 700;
 }
 
 .item-data{
@@ -53,6 +55,8 @@ p {
     gap: 20px;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .item-price-location{
@@ -76,22 +80,28 @@ p {
 .item-image{
     width: 400px;
     height: 300px;
-    background-image:url("https://www.lrt.lt/img/2021/11/05/1101460-530964-756x425.jpg") ;
     background-size: cover;
 }
 
 .item-name {
+    width: 50%;
+    margin: auto;
     margin-top: 3px;
     height: 40px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 500;
     color: #1da1f2;
     overflow: hidden;
+    text-align: center;
 }
 
 .item-description{
     overflow: hidden;
     height: auto;
+    text-align: center;
+    font-size: 18px;
+    color: grey;
+    width: 50%;
 }
 
 .buttons{

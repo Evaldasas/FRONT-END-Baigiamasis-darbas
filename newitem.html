@@ -17,8 +17,9 @@
         <div class="logo">
             <h1>Skelbimų portalas</h1>
         </div>
+        <button class="go-to-main" id="go-to-main">Visi skelbimai</button>
     </header>
-    <main>
+    <main id="main">
         <div class="main-title">
             <h2>Užpildykite formą:</h2>
         </div>
@@ -29,7 +30,7 @@
             </div>
             <div class="input-wrapper">
                 <label for="description-input">Aprašymas</label>
-                <textarea name="description-input" id="description-input" cols="30" rows="10"></textarea>
+                <input name="description-input" id="description-input">
             </div>
             <div class="input-wrapper">
                 <label for="image-input">Nuotrauka</label>
@@ -38,7 +39,7 @@
             <div class="price-location">
                 <div class="price-location-input">
                     <label for="price-input">Kaina</label>
-                    <input class="price-input" type="text">
+                    <input class="price-input" id="price-input" type="number">
                 </div>
                 <div class="price-location-input">
                     <label for="location-input">Miestas</label>
@@ -46,7 +47,7 @@
                 </div>
             </div>
             <div class="add-button" id="add-button">
-                <input class="add-button-input" id="add-button-input" value="Įdėti skelbimą">
+                <button class="add-button-input" id="add-button-input"> Įdėti skelbimą</button>
             </div>
         </section>
 

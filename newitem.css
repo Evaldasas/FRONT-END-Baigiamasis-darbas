@@ -13,7 +13,6 @@ header {
 
 main {
     width: 70%;
-    height: 700px;
     margin: auto;
     background-color: beige;
     display: flex;
@@ -25,9 +24,28 @@ h1 {
     color: #00d053;
 }
 
-.main-title{
+.logo {
+    width: 70%;
+}
+
+.main-title {
     color: #1da1f2;
 }
+
+.go-to-main {
+    width: 30%;
+    height: 50px;
+    min-width: 150px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1da1f2;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
 .form-wrapper {
     width: 90%;
     display: flex;
@@ -35,32 +53,33 @@ h1 {
     gap: 15px;
 }
 
-.input-wrapper{
+.input-wrapper {
     display: flex;
     flex-direction: column;
     gap: 3px;
 }
 
-.price-location{
+.price-location {
     display: grid;
     grid-template-columns: auto auto;
     gap: 20px;
 }
 
-.price-location-input{
+.price-location-input {
     display: flex;
     flex-direction: column;
     gap: 3px;
 }
 
-.add-button{
+.add-button {
     margin-top: 30px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.add-button-input{
+.add-button-input {
     width: 150px;
     height: 50px;
     text-align: center;
